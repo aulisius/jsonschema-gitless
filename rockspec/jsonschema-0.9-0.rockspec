@@ -1,8 +1,8 @@
-package = "jsonschema"
-version = "0.8-0"
+rockspec_format = "3.0"
+package = "jsonschema-gitless"
+version = "0.9-0"
 source = {
-  url = "git://github.com/iresty/jsonschema.git",
-  tag = "v0.8",
+  url = "https://github.com/aulisius/jsonschema-gitless/archive/v0.9.tar.gz"
 }
 
 description = {
@@ -14,18 +14,18 @@ to validate any kind of data (not limited to JSON).
 
 Base on https://github.com/jdesgats/jsonschema .
 ]],
-  homepage = "https://github.com/iresty/jsonschema",
+  homepage = "https://github.com/aulisius/jsonschema",
   license = "MIT"
 }
 
 dependencies = {
-  "net-url",
+  "net-url"
 }
 
 build = {
   type = "builtin",
   modules = {
     ["jsonschema"] = "lib/jsonschema.lua",
-    ["jsonschema.store"] = "lib/jsonschema/store.lua",
+    ["jsonschema.store"] = "lib/jsonschema/store.lua"
   }
 }
