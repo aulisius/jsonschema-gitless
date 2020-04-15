@@ -2,7 +2,8 @@ rockspec_format = "3.0"
 package = "jsonschema-gitless"
 version = "0.9-0"
 source = {
-  url = "https://github.com/aulisius/jsonschema-gitless/archive/v0.9.tar.gz"
+  url = "https://github.com/aulisius/jsonschema-gitless/archive/release.tar.gz",
+  dir = "jsonschema-gitless-release"
 }
 
 description = {
